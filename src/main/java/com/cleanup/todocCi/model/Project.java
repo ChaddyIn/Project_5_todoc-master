@@ -1,7 +1,6 @@
-package com.cleanup.todoc.model;
+package com.cleanup.todocCi.model;
 
 import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.ForeignKey;
 import android.arch.persistence.room.PrimaryKey;
 import android.support.annotation.ColorInt;
 import android.support.annotation.NonNull;
@@ -18,24 +17,19 @@ public class Project {
      * The unique identifier of the project
      */
     @PrimaryKey
-    public  long id;
+    private  long id;
 
     /**
      * The name of the project
      */
     @NonNull
-    public  String name;
+    private  String name;
 
     /**
      * The hex (ARGB) code of the color associated to the project
      */
     @ColorInt
-    public  int color;
-
-
-    //Empty Constructor
-   public Project(){ }
-
+    private  int color;
 
 
     /**

@@ -1,14 +1,13 @@
-package com.cleanup.todoc;
+package com.cleanup.todocCi;
 
 import android.arch.core.executor.testing.InstantTaskExecutorRule;
 import android.arch.persistence.room.Room;
 import android.support.test.InstrumentationRegistry;
-import android.support.test.espresso.remote.EspressoRemoteMessage;
 import android.support.test.runner.AndroidJUnit4;
 
-import com.cleanup.todoc.database.dao.TodocMasterDatabase;
-import com.cleanup.todoc.model.Project;
-import com.cleanup.todoc.model.Task;
+import com.cleanup.todocCi.database.dao.TodocMasterDatabase;
+import com.cleanup.todocCi.model.Project;
+import com.cleanup.todocCi.model.Task;
 
 import org.junit.After;
 import org.junit.Before;

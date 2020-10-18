@@ -1,12 +1,11 @@
-package com.cleanup.todoc.injections;
+package com.cleanup.todocCi.injections;
 
 import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
-import android.support.annotation.NonNull;
 
-import com.cleanup.todoc.repositories.ProjectDataRepository;
-import com.cleanup.todoc.repositories.TaskDataRepository;
-import com.cleanup.todoc.ui.TaskViewModel;
+import com.cleanup.todocCi.repositories.ProjectDataRepository;
+import com.cleanup.todocCi.repositories.TaskDataRepository;
+import com.cleanup.todocCi.ui.TaskViewModel;
 
 import java.util.concurrent.Executor;
 
